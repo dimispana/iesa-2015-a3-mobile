@@ -1,4 +1,7 @@
 # iesa-2015-a3-mobile
 
-List des étudiants :
+
+Safari : preference | Advanced | show Develop menu in menu bar
+
+
 
