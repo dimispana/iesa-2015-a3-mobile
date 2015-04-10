@@ -12,3 +12,4 @@ Safari : preference | Advanced | show Develop menu in menu bar
 firefox : firebug
 
 
+plug in : splash screen, multiple views, connection status, pictures, image effects, geolocalisation, contact, stores, social networks, languages
