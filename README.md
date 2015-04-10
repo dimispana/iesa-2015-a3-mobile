@@ -23,3 +23,5 @@ cd hello/platforms/ios/Helloword/Resources/splash
 cd hello/platforms/ios/Helloword/Resources/icons
 
 http://cordova.apache.org/docs/en/4.0.0/config_ref_images.md.html#Icons%20and%20Splash%20Screens
+
+changement des resources : icons et splash screen a la racine dans ressource/ios..
