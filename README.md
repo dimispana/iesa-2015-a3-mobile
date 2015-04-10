@@ -2,6 +2,6 @@
 
 
 Safari : preference | Advanced | show Develop menu in menu bar
-
+          menu Develop | Show Web Inspector
 
 
