@@ -1,0 +1,14 @@
+2015-04-10 11:55:05.061 helloWord[6055:530220] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/taracommunication/Library/Developer/CoreSimulator/Devices/B56E6F1B-B31B-4CA4-BC07-E5C32A8A82B8/data/Containers/Data/Application/61436117-2600-4FE6-8921-C7BB1329C7AA/Library/Cookies/Cookies.binarycookies
+2015-04-10 11:55:05.232 helloWord[6055:530220] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-10 11:55:05.233 helloWord[6055:530220] Multi-tasking -> Device: YES, App: YES
+2015-04-10 11:55:05.241 helloWord[6055:530220] Unlimited access to network resources
+2015-04-10 11:55:05.247 helloWord[6055:530220] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-10 11:55:06.179 helloWord[6055:530220] Resetting plugins due to page load.
+2015-04-10 11:55:06.290 helloWord[6055:530220] Finished load of: file:///Users/taracommunication/Library/Developer/CoreSimulator/Devices/B56E6F1B-B31B-4CA4-BC07-E5C32A8A82B8/data/Containers/Bundle/Application/B9D05F18-C572-4413-B31B-88122A857BEF/helloWord.app/www/index.html
