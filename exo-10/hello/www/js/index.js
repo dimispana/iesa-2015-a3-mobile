@@ -64,25 +64,19 @@ var app = {
         }
         
         checkConnection();
-        function onSuccess(contacts) {
-            alert('Found ' + contacts.length + ' contacts.');
-        };
         
-        function onError(contactError) {
-            alert('onError!');
-        };
         
-        // find all contacts with 'Bob' in any name field
-        var options      = new ContactFindOptions();
-        options.filter   = "Bob";
-        options.multiple = true;
-        options.desiredFields = [navigator.contacts.fieldType.id];
-        var fields       = [navigator.contacts.fieldType.displayName, navigator.contacts.fieldType.name];
-        navigator.contacts.find(fields, onSuccess, onError, options);
-
-     
-        
+        //var contact = navigator.contacts.create({'displayName':'giorgio'});
+        var contacts = navigator.contacts.create();
+        //contact.displayName = contact.nickname = name;
+        contact.name = new ContactName();
+        contact.name.givenName = name;
+        contact.emails = [];
+        contact.emails[0] = new contactField('PhotneGape' , email, true); //preferred
+        contact.save(this.onContactSaved, this.onContactSavedError);
     },
+    
+    
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
