@@ -34,19 +34,36 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        console.log(device.cordova);
-        document.getElementById('test').innerHTML = 'cordova version:'+ device.cordova + 'Cordova platform: ' + device.platform +' Cordova device : ' + device.model;
+       // console.log(device.cordova);
+       // document.getElementById('test').innerHTML = 'cordova version:'+ device.cordova + 'Cordova platform: ' + device.platform +' Cordova device : ' + device.model;
         
         var element = document.getElementById('deviceProperties');
         element.innerHTML='<ul data-role="listview" id="list">'
-        +'<li data-icon="arrow-l>Name: ' + device.name + '</li>'
-        +'<li data-icon="arrow-r>Model: ' + device.model + '</li>'
-        +'<li data-icon="arrow-r>Cordova: ' + device.cordova + '</li>'
-        +'<li data-icon="arrow-l>Platform: ' + device.platform + '</li>'
-        +'<li data-icon="arrow-r>UUID:: ' + device.uuid + '</li>'
-        +'<li data-icon="arrow-l>Version: ' + device.version + '</li>'
+        +'<li data-icon="arrow-l">Name: ' + device.name + '</li>'
+        +'<li data-icon="arrow-r">Model: ' + device.model + '</li>'
+        +'<li data-icon="arrow-r">Cordova: ' + device.cordova + '</li>'
+        +'<li data-icon="arrow-l">Platform: ' + device.platform + '</li>'
+        +'<li data-icon="arrow-r">UUID: ' + device.uuid + '</li>'
+        +'<li data-icon="arrow-l">Version: ' + device.version + '</li>'
         + '</ul>'
         ;
+        function checkConnection() {
+            var networkState = navigator.connection.type;
+            
+            var states = {};
+            states[Connection.UNKNOWN]  = 'Unknown connection';
+            states[Connection.ETHERNET] = 'Ethernet connection';
+            states[Connection.WIFI]     = 'WiFi connection';
+            states[Connection.CELL_2G]  = 'Cell 2G connection';
+            states[Connection.CELL_3G]  = 'Cell 3G connection';
+            states[Connection.CELL_4G]  = 'Cell 4G connection';
+            states[Connection.CELL]     = 'Cell generic connection';
+            states[Connection.NONE]     = 'No network connection';
+            
+            alert('Connection type: ' + states[networkState]);
+        }
+        
+        checkConnection();
      
         
     },
