@@ -35,6 +35,10 @@
                         {
                             "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -49,6 +53,9 @@
             "PACKAGE_NAME": "ch.inagua.training.phonegap"
         },
         "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "ch.inagua.training.phonegap"
+        },
+        "org.apache.cordova.console": {
             "PACKAGE_NAME": "ch.inagua.training.phonegap"
         }
     },

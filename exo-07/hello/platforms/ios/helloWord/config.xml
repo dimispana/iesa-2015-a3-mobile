@@ -24,6 +24,9 @@
     <feature name="NetworkStatus">
         <param name="ios-package" value="CDVConnection" />
     </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
     <icon height="180" src="resources/ios/icons/icon-60@3x.png" width="180" />
     <icon height="60" src="resources/ios/icons/icon-60.png" width="60" />
     <icon height="120" src="resources/ios/icons/icon-60@2x.png" width="120" />

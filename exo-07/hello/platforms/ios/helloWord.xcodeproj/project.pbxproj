@@ -44,6 +44,7 @@
 		6852A2B128524182AC6C110E /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DAC39E0DB64776A60B410D /* CDVConnection.m */; };
 		455ED63930DC4FD9876509F8 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EADB3049F454E34B11919F4 /* CDVReachability.m */; };
 		E768C4AFC47E406091EF2BC8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BBC0D9DF734762878935FC /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		573C4C0DEEEE4F4CAFE52E22 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A259BBB0CCAC41FE89E3B582 /* CDVLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,8 @@
 		23FF8E9DCC4045F1A896011C /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVConnection.h"; path = "org.apache.cordova.network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		FBA1F962FAFE430E80B38A49 /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVReachability.h"; path = "org.apache.cordova.network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		78BBC0D9DF734762878935FC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		A259BBB0CCAC41FE89E3B582 /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "org.apache.cordova.console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		77A631C865A647CE8203FC4D /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +229,8 @@
 				6EADB3049F454E34B11919F4 /* CDVReachability.m */,
 				23FF8E9DCC4045F1A896011C /* CDVConnection.h */,
 				FBA1F962FAFE430E80B38A49 /* CDVReachability.h */,
+				A259BBB0CCAC41FE89E3B582 /* CDVLogger.m */,
+				77A631C865A647CE8203FC4D /* CDVLogger.h */,
 			);
 			name = Plugins;
 			path = "helloWord/Plugins";
@@ -414,6 +419,7 @@
 				02358AC20731487FBD9ABC80 /* CDVDevice.m in Sources */,
 				6852A2B128524182AC6C110E /* CDVConnection.m in Sources */,
 				455ED63930DC4FD9876509F8 /* CDVReachability.m in Sources */,
+				573C4C0DEEEE4F4CAFE52E22 /* CDVLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
